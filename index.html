@@ -32,6 +32,9 @@
     ================================================== -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!-- manifest -->
+    <link rel='manifest' href='/manifest.json'>
+
     <!-- CSS
     ================================================== -->
     <link rel="stylesheet" href="css/base.css">
@@ -68,16 +71,17 @@
 
             <div class="header-nav__content">
                 <h3>Navigation</h3>
-                
+
                 <ul class="header-nav__list">
-                    <li class="current"><a class="smoothscroll"  href="#home" title="home">Home</a></li>
-                    <li><a class="smoothscroll"  href="#about" title="about">About</a></li>
-                    <li><a class="smoothscroll"  href="#services" title="services">Services</a></li>
-                    <li><a class="smoothscroll"  href="#contact" title="contact">Contact</a></li>
+                    <li class="current"><a class="smoothscroll" href="#home" title="home">Home</a></li>
+                    <li><a class="smoothscroll" href="#about" title="about">About</a></li>
+                    <li><a class="smoothscroll" href="#services" title="services">Services</a></li>
+                    <li><a class="smoothscroll" href="#contact" title="contact">Contact</a></li>
+                    <li><a href="/privacy.html" title="privacy policy">Privacy Policy</a></li>
                 </ul>
-    
+
                 <!-- <p>Perspiciatis hic praesentium nesciunt. Et neque a dolorum <a href='#0'>voluptatem</a> porro iusto sequi veritatis libero enim. Iusto id suscipit veritatis neque reprehenderit.</p> -->
-    
+
                 <ul class="header-nav__social">
                     <li>
                         <a href="https://facebook.com/brownwolfstudios"><i class="fa fa-facebook"></i></a>
@@ -92,7 +96,7 @@
 
             </div> <!-- end header-nav__content -->
 
-        </nav>  <!-- end header-nav -->
+        </nav> <!-- end header-nav -->
 
         <a class="header-menu-toggle" href="#0">
             <span class="header-menu-text">Menu</span>
@@ -104,7 +108,8 @@
 
     <!-- home
     ================================================== -->
-    <section id="home" class="s-home target-section" data-parallax="scroll" data-image-src="images/hero-bg.jpg" data-natural-width=3000 data-natural-height=2000 data-position-y=center>
+    <section id="home" class="s-home target-section" data-parallax="scroll" data-image-src="images/hero-bg.jpg"
+        data-natural-width=3000 data-natural-height=2000 data-position-y=center>
 
         <div class="overlay"></div>
         <div class="shadow-overlay"></div>
@@ -113,7 +118,7 @@
 
             <div class="row home-content__main">
 
-                
+
                 <h1>Brown Wolf Studio</h1>
                 <h3>Play Hard.</h3>
 
@@ -141,15 +146,18 @@
 
         <ul class="home-social">
             <li>
-                <a href="https://facebook.com/brownwolfstudios"><i class="fa fa-facebook" aria-hidden="true"></i><span>Facebook</span></a>
+                <a href="https://facebook.com/brownwolfstudios"><i class="fa fa-facebook"
+                        aria-hidden="true"></i><span>Facebook</span></a>
             </li>
             <li>
-                <a href="https://twitter.com/brownwolfstudio"><i class="fa fa-twitter" aria-hidden="true"></i><span>Twiiter</span></a>
+                <a href="https://twitter.com/brownwolfstudio"><i class="fa fa-twitter"
+                        aria-hidden="true"></i><span>Twiiter</span></a>
             </li>
             <li>
-                <a href="https://instagram.com/brownwolfstudio"><i class="fa fa-instagram" aria-hidden="true"></i><span>Instagram</span></a>
+                <a href="https://instagram.com/brownwolfstudio"><i class="fa fa-instagram"
+                        aria-hidden="true"></i><span>Instagram</span></a>
             </li>
-        </ul> 
+        </ul>
         <!-- end home-social -->
 
     </section> <!-- end s-home -->
@@ -169,13 +177,15 @@
         <div class="row about-desc" data-aos="fade-up">
             <div class="col-full">
                 <p>
-                    We are a brand new contracting agency who provides world class services, like full fledged CMS (headless and with UI), authentication integration, SPAs, desktop applications, android applications, PWAs and much more.
+                    We are a brand new contracting agency who provides world class services, like full fledged CMS
+                    (headless and with UI), authentication integration, SPAs, desktop applications, android
+                    applications, PWAs and much more.
                 </p>
             </div>
         </div> <!-- end about-desc -->
 
         <div class="row about-stats stats block-1-4 block-m-1-2 block-mob-full" data-aos="fade-up">
-                
+
             <div class="col-block stats__col ">
                 <div class="stats__count">6</div>
                 <h5>Open Source Projects</h5>
@@ -186,7 +196,7 @@
             </div>
             <div class="col-block stats__col">
                 <div class="stats__count">5</div>
-                <h5>Happy Clients</h5> 
+                <h5>Happy Clients</h5>
             </div>
             <div class="col-block stats__col">
                 <div class="stats__count">800</div>
@@ -220,7 +230,9 @@
                 <div class="service-text">
                     <h3 class="h2">Branding</h3>
                     <p>
-                        From visiting cards to your own merch, we are your one stop solution. We provide design guidelines, full fledged branding and to top it all off we work closely with great designers who are at the top of their 'work-chain'. We also do design mock-ups, UI kits, landing pages, etc.
+                        From visiting cards to your own merch, we are your one stop solution. We provide design
+                        guidelines, full fledged branding and to top it all off we work closely with great designers who
+                        are at the top of their 'work-chain'. We also do design mock-ups, UI kits, landing pages, etc.
                     </p>
                 </div>
             </div>
@@ -232,7 +244,11 @@
                 <div class="service-text">
                     <h3 class="h2">Headless CMS</h3>
                     <p>
-                        We also build on-demand Headless CMS using the greatest tech-stack on the face of the Earth which is Asp.Net Core, obviously. Joking aside it is a robust, battle tested stack backed by a tech giant and supported by one of the best communities in the world. We ship things like jwt auth, user management, policy based authorization, plugin support, etc. with your CMS, so you can show it off to your customers and friends.
+                        We also build on-demand Headless CMS using the greatest tech-stack on the face of the Earth
+                        which is Asp.Net Core, obviously. Joking aside it is a robust, battle tested stack backed by a
+                        tech giant and supported by one of the best communities in the world. We ship things like jwt
+                        auth, user management, policy based authorization, plugin support, etc. with your CMS, so you
+                        can show it off to your customers and friends.
                     </p>
                 </div>
             </div>
@@ -244,17 +260,21 @@
                 <div class="service-text">
                     <h3 class="h2">Web Design</h3>
                     <p>
-                        Have a cool idea, but need a compeling web site? Coded an Api but need a hand in developing front-end for it? You're at the right place my friend, just hit us up and we can set up a meeting.
+                        Have a cool idea, but need a compeling web site? Coded an Api but need a hand in developing
+                        front-end for it? You're at the right place my friend, just hit us up and we can set up a
+                        meeting.
                     </p>
                 </div>
             </div>
-    
+
             <div class="col-block service-item" data-aos="fade-up">
                 <div class="service-icon"><i class="icon-lego-block"></i></div>
                 <div class="service-text">
                     <h3 class="h2">Web Development</h3>
                     <p>
-                        You and your customers are bored of same old boring static website? Need some spice in the relationsip ;) Need a super cool SPA to attract new customers &amp; investors, say no more, just call or email us and we can discuss requirements.
+                        You and your customers are bored of same old boring static website? Need some spice in the
+                        relationsip ;) Need a super cool SPA to attract new customers &amp; investors, say no more, just
+                        call or email us and we can discuss requirements.
                     </p>
                 </div>
             </div>
@@ -279,46 +299,50 @@
         </div>
 
         <div class="row contact-content" data-aos="fade-up">
-            
+
             <div class="contact-primary">
 
                 <h3 class="h6">Send Us A Message</h3>
 
                 <form name="contactForm" id="contactForm" method="post" action="" novalidate="novalidate">
                     <fieldset>
-    
-                    <div class="form-field">
-                        <input name="contactName" type="text" id="contactName" placeholder="Your Name" value="" minlength="2" required="" aria-required="true" class="full-width">
-                    </div>
-                    <div class="form-field">
-                        <input name="contactEmail" type="email" id="contactEmail" placeholder="Your Email" value="" required="" aria-required="true" class="full-width">
-                    </div>
-                    <div class="form-field">
-                        <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value="" class="full-width">
-                    </div>
-                    <div class="form-field">
-                        <textarea name="contactMessage" id="contactMessage" placeholder="Your Message" rows="10" cols="50" required="" aria-required="true" class="full-width"></textarea>
-                    </div>
-                    <div class="form-field">
-                        <button class="full-width btn--primary">Submit</button>
-                        <div class="submit-loader">
-                            <div class="text-loader">Sending...</div>
-                            <div class="s-loader">
-                                <div class="bounce1"></div>
-                                <div class="bounce2"></div>
-                                <div class="bounce3"></div>
+
+                        <div class="form-field">
+                            <input name="contactName" type="text" id="contactName" placeholder="Your Name" value=""
+                                minlength="2" required="" aria-required="true" class="full-width">
+                        </div>
+                        <div class="form-field">
+                            <input name="contactEmail" type="email" id="contactEmail" placeholder="Your Email" value=""
+                                required="" aria-required="true" class="full-width">
+                        </div>
+                        <div class="form-field">
+                            <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value=""
+                                class="full-width">
+                        </div>
+                        <div class="form-field">
+                            <textarea name="contactMessage" id="contactMessage" placeholder="Your Message" rows="10"
+                                cols="50" required="" aria-required="true" class="full-width"></textarea>
+                        </div>
+                        <div class="form-field">
+                            <button class="full-width btn--primary">Submit</button>
+                            <div class="submit-loader">
+                                <div class="text-loader">Sending...</div>
+                                <div class="s-loader">
+                                    <div class="bounce1"></div>
+                                    <div class="bounce2"></div>
+                                    <div class="bounce3"></div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-    
+
                     </fieldset>
                 </form>
 
                 <!-- contact-warning -->
                 <div class="message-warning">
                     Something went wrong. Please try again.
-                </div> 
-            
+                </div>
+
                 <!-- contact-success -->
                 <div class="message-success">
                     Your message was sent, thank you!<br>
@@ -348,13 +372,16 @@
 
                     <ul class="contact-social">
                         <li>
-                            <a href="https://facebook.com/brownwolfstudios"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                            <a href="https://facebook.com/brownwolfstudios"><i class="fa fa-facebook"
+                                    aria-hidden="true"></i></a>
                         </li>
                         <li>
-                            <a href="https://twitter.com/brownwolfstudio"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                            <a href="https://twitter.com/brownwolfstudio"><i class="fa fa-twitter"
+                                    aria-hidden="true"></i></a>
                         </li>
                         <li>
-                            <a href="https://instagram.com/brownwolfstudio"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                            <a href="https://instagram.com/brownwolfstudio"><i class="fa fa-instagram"
+                                    aria-hidden="true"></i></a>
                         </li>
                     </ul> <!-- end contact-social -->
 
@@ -374,11 +401,13 @@
 
             <div class="col-six tab-full left footer-desc">
 
-                
+
                 This is just a placeholder until we develop the actual site.<br /><br />
-                We love open source and most of our projects are just that. Check them out at our <a href="https://github.com/BrownWolfStudio">GitHub Repo</a>.<br />
+                We love open source and most of our projects are just that. Check them out at our <a
+                    href="https://github.com/BrownWolfStudio">GitHub Repo</a>.<br />
                 We also have a nice <a href="https://blog.brownwolfstudio.com">blog</a>.<br /><br />
-                Also, special thanks to <a href="https://colorlib.com">Colorlib</a> for providing this <a href="https://colorlib.com/wp/template/glint/">amazing template</a>.<br />
+                Also, special thanks to <a href="https://colorlib.com">Colorlib</a> for providing this <a
+                    href="https://colorlib.com/wp/template/glint/">amazing template</a>.<br />
                 Hero Background By: <a href="https://unsplash.com/photos/5Ntkpxqt54Y">Sai Kiran Anagani</a>.
 
             </div>
@@ -390,7 +419,8 @@
 
                 <div class="subscribe-form">
                     <form id="mc-form" class="group" novalidate="true">
-                        <input type="email" value="" name="EMAIL" class="email" id="mc-email" placeholder="Email Address" required="">
+                        <input type="email" value="" name="EMAIL" class="email" id="mc-email"
+                            placeholder="Email Address" required="">
                         <input type="submit" name="subscribe" value="Subscribe">
                         <label for="mc-email" class="subscribe-message"></label>
                     </form>
@@ -404,11 +434,12 @@
 
             <div class="col-twelve">
                 <div class="copyright">
-                    <span>&copy; <a href="https://brownwolfstudio.com">Brown Wolf Studio</a> 2019</span>	
+                    <span>&copy; <a href="https://brownwolfstudio.com">Brown Wolf Studio</a> 2019</span>
                 </div>
 
                 <div class="go-top">
-                    <a class="smoothscroll" title="Back to Top" href="#top"><i class="icon-arrow-up" aria-hidden="true"></i></a>
+                    <a class="smoothscroll" title="Back to Top" href="#top"><i class="icon-arrow-up"
+                            aria-hidden="true"></i></a>
                 </div>
             </div>
 
@@ -432,9 +463,11 @@
 
             <div class="pswp__ui pswp__ui--hidden">
                 <div class="pswp__top-bar">
-                    <div class="pswp__counter"></div><button class="pswp__button pswp__button--close" title="Close (Esc)"></button> <button class="pswp__button pswp__button--share" title=
-                    "Share"></button> <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button> <button class="pswp__button pswp__button--zoom" title=
-                    "Zoom in/out"></button>
+                    <div class="pswp__counter"></div><button class="pswp__button pswp__button--close"
+                        title="Close (Esc)"></button> <button class="pswp__button pswp__button--share"
+                        title="Share"></button> <button class="pswp__button pswp__button--fs"
+                        title="Toggle fullscreen"></button> <button class="pswp__button pswp__button--zoom"
+                        title="Zoom in/out"></button>
                     <div class="pswp__preloader">
                         <div class="pswp__preloader__icn">
                             <div class="pswp__preloader__cut">
@@ -445,8 +478,8 @@
                 </div>
                 <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
                     <div class="pswp__share-tooltip"></div>
-                </div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button> <button class="pswp__button pswp__button--arrow--right" title=
-                "Next (arrow right)"></button>
+                </div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button>
+                <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"></button>
                 <div class="pswp__caption">
                     <div class="pswp__caption__center"></div>
                 </div>
@@ -477,6 +510,15 @@
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
+
+    <script type="module">
+        import 'https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate';
+
+        const el = document.createElement('pwa-update');
+        document.body.appendChild(el);
+    </script>
+
+    <script src="js/manup.js"></script>
 
 </body>
 
